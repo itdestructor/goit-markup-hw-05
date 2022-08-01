@@ -578,10 +578,10 @@ address {
 
  .portfolio-overlay-text{
    padding: 63px 24px;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
 /* or 156% */
 
 letter-spacing: 0.03em;
