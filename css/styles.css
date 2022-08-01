@@ -677,3 +677,50 @@ color: #FFFFFF;
     background-color: var(--background-section);
 
  }
+
+ .modal-overlay{
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 5;
+   background: rgba(0, 0, 0, 0.2);
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   opacity: 1;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ }
+
+ .modal-overlay.is-hidden{
+   opacity: 0;
+   z-index: -1;
+ }
+
+ .modal-content{
+   position: relative;
+   width: 528px;
+   height: 581px;
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 4px;
+ }
+
+ .modal-close{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+background: none;
+outline: none;
+box-shadow: none;
+border: 1px solid rgba(0, 0, 0, 0.1);
+top: 8px;
+right: 8px;
+cursor: pointer;
+ }
