@@ -696,6 +696,16 @@ color: #FFFFFF;
 
  }
 
+ .footer-container-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--button-white-color);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
  .adress-item:not(:last-child){
     margin-bottom: 9px;
  }
@@ -704,6 +714,67 @@ color: #FFFFFF;
     background-color: var(--background-section);
 
  }
+
+
+ .form-container {
+}
+
+.footer-form-label {
+}
+
+.footer-form-input {
+  width: 358px;
+  padding: 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--button-white-color);
+}
+
+.footer-form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-input:focus {
+  outline: transparent;
+  border: 1px solid var(--button-white-color);
+}
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+}
+.footer-form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  border: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  margin-left: 12px;
+}
+
+.footer-form-icon-send {
+  fill: var(--button-white-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-button:hover .footer-form-icon-send,
+.footer-form-button:focus .footer-form-icon-send {
+  fill: black;
+}
+
 
  .hero-backdrop {
    position: fixed;
